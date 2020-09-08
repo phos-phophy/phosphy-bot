@@ -5,13 +5,13 @@ import os
 
 
 # information about group
-token = os.environ.get('BOT_TOKEN')
+token = str(os.environ.get('BOT_TOKEN'))
 group_id = 196764812
 
 # information about app
-client_id = 7536601
-client_secret = os.environ.get('CLIENT_SECRET')
-access_token = os.environ.get('ACCESS_TOKEN')
+client_id = os.environ.get('CLIENT_ID')
+client_secret = str(os.environ.get('CLIENT_SECRET'))
+access_token = str(os.environ.get('ACCESS_TOKEN'))
 
 # basic commands
 basic_commands = {'-help': 'photo-196764812_457244024',
