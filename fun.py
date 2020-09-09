@@ -73,7 +73,7 @@ def get_nerd(chat_id, members):
         if nerd_id == 146693136:
             db.add_chat_member(chat_id, nerd_id, 0, 10)
         else:
-            db.add_chat_member(chat_id, nerd_id, 0, 10)
+            db.add_chat_member(chat_id, nerd_id, 0, 1)
     elif nerd_id == 146693136:
         db.update_nerd_count(chat_id, nerd_id, user_info[0][2] + 10)
     else:
