@@ -1,7 +1,4 @@
 vk_api
-vk_api.bot_longpoll
-vk_api.upload
-vk_api.utils
 sqlite3
 random
 datetime
