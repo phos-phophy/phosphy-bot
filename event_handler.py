@@ -13,7 +13,7 @@ while True:
             # print(event.object.items())  # ________________________
 
             if event.type == VkBotEventType.MESSAGE_NEW:
-                print(event.object.items())  # ________________________
+                # print(event.object.items())  # ________________________
 
                 processed_flag = False
 
